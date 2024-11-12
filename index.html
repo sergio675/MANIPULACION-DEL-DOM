@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulacion del DOM</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <section id="cont-general">
+        <div class="left">
+            <h2>INTERACIONES</h2>
+            <button onclick="circulo()">CIRCULO</button>
+            <button onclick="rombo()">ROMBO</button>
+            <button onclick="color()">FONDO COLOR</button>
+            <button onclick="imagen()">FONDO IMAGEN</button>
+            <button onclick="arriba()">TOP</button>
+            <button onclick="izquierda()">LEFT</button>
+            <button onclick="abajo()">BOTTOM</button>
+            <button onclick="derecha()">RIGTH</button>
+            <button onclick="diagonal()">DIAGONAL</button>
+            <button onclick="animacion()">ANIMATION</button>
+            <button onclick="degradado()">FONDO DEGRADADO</button> 
+            <button onclick="estrella()">ESTRELLA</button>
+            <button onclick="panelLateral()">PANEL LATERAL</button>
+            <button onclick="panelsuperior()"> PANEL SUPERIOR</button>
+            
+        </div>
+
+        <div class="right">
+
+            <h2 id="titulo">FIGURA</h2>
+
+            <div id="figura"></div>
+
+        </div>
+        <div id="panel-lateral">
+            <div class="fila">
+                <h3>MENU</h3>
+                <button onclick="panelLateral()">X</button>
+            </div>
+            <ul class="texto">
+                <li>Inicio</li>
+                <li>Productos</li>
+                <li>Servicios</li>
+                <li>Contacto</li>
+            </ul>
+        </div>
+        <div id="panel-superior">
+            <div class="fila">
+                <h3 class="texto"></h3>
+
+            </div>
+        </div>
+        
+
+    </section>
+    
+    <script src="js/main.js"></script>
+    
+</body>
+</html>
